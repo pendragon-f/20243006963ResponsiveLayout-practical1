@@ -33,3 +33,12 @@
         app:layout_constraintEnd_toStartOf="@+id/box_purple"
         app:layout_constraintStart_toEndOf="@+id/box_red"
         app:layout_constraintTop_toTopOf="@+id/box_red" />
+    <TextView
+        android:id="@+id/box_purple"
+        android:layout_width="0dp"
+        android:layout_height="148dp"
+        android:background="#800080"
+        app:layout_constraintEnd_toStartOf="@+id/box_yellow"
+        app:layout_constraintStart_toEndOf="@+id/box_blue"
+        app:layout_constraintTop_toTopOf="@+id/box_red" />
+    
