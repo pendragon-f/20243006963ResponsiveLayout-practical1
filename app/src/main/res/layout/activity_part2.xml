@@ -49,3 +49,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/box_purple"
         app:layout_constraintTop_toTopOf="@+id/box_red" />
+    <TextView
+        android:id="@+id/text_bottom"
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:text="Responsive Layout 1"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
