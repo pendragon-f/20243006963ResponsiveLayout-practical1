@@ -5,3 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#000000">
+    <TextView
+        android:id="@+id/text_top"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:gravity="center"
+        android:text="Lab 1"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
