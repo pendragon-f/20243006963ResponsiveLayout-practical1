@@ -43,7 +43,9 @@
             android:background="#0000FF"
             android:gravity="center"
             android:text="is"
-            android:textColor="#FFFFFF" />
+            android:textColor="#FFFFFF"
+            android:textSize="32sp"
+            android:padding="16dp" />
 
         <TextView
             android:layout_width="0dp"
